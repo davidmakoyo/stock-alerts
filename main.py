@@ -3,8 +3,8 @@ from twilio.rest import Client
 
 #Choose a stock 
 
-STOCK_NAME = "TSLA"
-COMPANY_NAME = "Tesla Inc"
+STOCK_NAME = "PGR"
+COMPANY_NAME = "The Progressive Company"
 
 STOCK_ENDPOINT = f"https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol={STOCK_NAME}&apikey=UO4YUGW7OL53IRBC"
 NEWS_ENDPOINT = f"https://newsapi.org/v2/everything?q={COMPANY_NAME}&apiKey=7c9a821fc6f94dd580f330eb7a5d0fd5"
